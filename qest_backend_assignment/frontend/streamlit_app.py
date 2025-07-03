@@ -53,7 +53,7 @@ if "support_qa_map" not in st.session_state:
 if "dashboard_qa_map" not in st.session_state:
     st.session_state["dashboard_qa_map"] = {}
 
-API_URL = "http://localhost:8000"
+API_URL = "https://backend-platform-lgd9.onrender.com"
 
 tab1, tab2 = st.tabs([" Support Agent", " Dashboard Agent"])
 

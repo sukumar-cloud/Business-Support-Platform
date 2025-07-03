@@ -1,4 +1,4 @@
-# Multi-Agent Business Support Platform
+# Business Support Platform
 
 A full-stack platform demonstrating AI-powered business support and analytics using agents, MongoDB, FastAPI, and Streamlit.
 
@@ -29,7 +29,7 @@ Agents interact with MongoDB (mock or real), external APIs, and expose endpoints
 [User] ⇄ [Streamlit Frontend] ⇄ [FastAPI Backend] ⇄ [Agents] ⇄ [MongoDB/External APIs]
 ```
 - **Agents**: `agents/support_agent.py`, `agents/dashboard_agent.py`
-- **API**: `api/main.py` (routes queries to agents)
+- **API**: `api/main.py`
 - **DB/Tools**: `tools/mongodb_tool.py`, `tools/external_api.py`, `config/db_config.py`
 - **Frontend**: `frontend/streamlit_app.py`
 - **Data/Models**: `data/*.json`, `models/schemas.py`
@@ -38,13 +38,13 @@ Agents interact with MongoDB (mock or real), external APIs, and expose endpoints
 
 ## File Structure
 - `api/` — FastAPI app & endpoints
-- `agents/` — Agent logic (support, dashboard)
+- `agents/` — Agent logics
 - `tools/` — MongoDB and external API tools
-- `models/` — Data schemas (Pydantic)
+- `models/` — Data schemas
 - `config/` — DB configuration
-- `frontend/` — Streamlit UI
-- `data/` — Mock data (JSON)
-- `scripts/` — Data loading scripts
+- `frontend/` — Streamlit for frontend
+- `data/` — sample data
+- `scripts/` — Data loading script
 
 ---
 

@@ -1,13 +1,13 @@
 # Multi-Agent Business Support Platform
 
-A full-stack platform demonstrating AI-powered business support and analytics using CrewAI-style agents, MongoDB, FastAPI, and Streamlit.
+A full-stack platform demonstrating AI-powered business support and analytics using agents, MongoDB, FastAPI, and Streamlit.
 
 ---
 
 ## Overview
 This project implements two intelligent backend agents:
-- **Support Agent**: Handles natural language queries about services, orders, payments, and clients. Can create clients/orders and log enquiries.
-- **Dashboard Agent**: Provides business analytics and metrics, such as revenue, client insights, service analytics, and attendance reports.
+- **Support Agent**: Handles natural language queries about services, orders, payments and clients. Can create clients/orders and log enquiries.
+- **Dashboard Agent**: Provides business analytics and metrics, such as revenue, client insights, service analytics and attendance reports.
 
 Agents interact with MongoDB (mock or real), external APIs, and expose endpoints via FastAPI. The Streamlit frontend offers a user-friendly interface for real-time interaction and visualization.
 

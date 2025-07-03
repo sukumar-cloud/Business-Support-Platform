@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "cl1",
+        "course_id": "cr1",
+        "date": "2025-07-07",
+        "time": "08:00",
+        "instructor": "Anjali Mehra",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl2",
+        "course_id": "cr2",
+        "date": "2025-07-12",
+        "time": "10:00",
+        "instructor": "Vikram Singh",
+        "status": "scheduled"
+    }
+]

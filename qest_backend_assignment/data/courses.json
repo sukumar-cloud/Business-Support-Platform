@@ -1,0 +1,18 @@
+[
+    {
+        "_id": "cr1",
+        "name": "Yoga Beginner",
+        "instructor": "Anjali Mehra",
+        "status": "active",
+        "start_date": "2025-07-05",
+        "end_date": "2025-08-05"
+    },
+    {
+        "_id": "cr2",
+        "name": "Pilates Pro",
+        "instructor": "Vikram Singh",
+        "status": "active",
+        "start_date": "2025-07-10",
+        "end_date": "2025-08-10"
+    }
+]

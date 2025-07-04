@@ -69,17 +69,25 @@ Agents interact with MongoDB (mock or real), external APIs, and expose endpoints
    ```
 
 ---
+## Example Queries
 
-## Usage
-- **Support Agent:**
-  - Ask questions like:
-    - `What classes are available this week?`
-    - `Create a new client named Priya Sharma and place an order for Yoga Beginner.`
-    - `Has order #12345 been paid?`
-- **Dashboard Agent:**
-  - Ask questions like:
-    - `How much revenue did we generate this month?`
-    - `Which course has the highest enrollment?`
-    - `Show attendance percentage for Pilates.`
+### Support Agent
+- Show enrolled services for client Priya Sharma
+- Get status for client Rahul Verma
+- Has order #12345 been paid?
+- Create an order for Yoga Beginner for client Priya Sharma
+- Pending dues for client Priya Sharma
+- Pending dues for order o1
+- Payment info for order #12345
 
----
+### Dashboard Agent
+- What is the total revenue?
+- How much revenue did we generate this month?
+- How many outstanding payments are there?
+- How many active clients do we have?
+- How many inactive clients do we have?
+- Show me birthday reminders
+- How many new clients this month?
+- What are the top services?
+- Which course has the highest enrollment?
+

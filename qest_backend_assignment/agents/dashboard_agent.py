@@ -80,4 +80,13 @@ def handle_dashboard_prompt(prompt: str):
             return f"Enrollment trends:\n{json.dumps(trends, indent=2)}"
         return "No enrollment trend data available."
 
+    if ("highest enrollment" in prompt or ("course" in prompt and "enrollment" in prompt)):
+        trends = get_enrollment_trends()
+        if trends:
+            top = trends[0]
+            course = top.get('_id') or top[0] if isinstance(top, dict) else top[0]
+            count = top.get('count') if isinstance(top, dict) else top[1]
+            return f"Course with highest enrollment: {course} ({count} enrollments)"
+        return "No enrollment data available."
+
     return "Sorry, I couldn't understand your dashboard request."

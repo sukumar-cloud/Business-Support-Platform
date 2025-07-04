@@ -10,5 +10,305 @@
         "class_id": "cl2",
         "client_id": "c2",
         "attended": false
+    },
+    {
+        "_id": "a1",
+        "class_id": "cl7",
+        "client_id": "c28",
+        "attended": true
+    },
+    {
+        "_id": "a2",
+        "class_id": "cl32",
+        "client_id": "c4",
+        "attended": true
+    },
+    {
+        "_id": "a3",
+        "class_id": "cl43",
+        "client_id": "c23",
+        "attended": true
+    },
+    {
+        "_id": "a4",
+        "class_id": "cl38",
+        "client_id": "c28",
+        "attended": false
+    },
+    {
+        "_id": "a5",
+        "class_id": "cl5",
+        "client_id": "c14",
+        "attended": false
+    },
+    {
+        "_id": "a6",
+        "class_id": "cl18",
+        "client_id": "c1",
+        "attended": true
+    },
+    {
+        "_id": "a7",
+        "class_id": "cl50",
+        "client_id": "c2",
+        "attended": false
+    },
+    {
+        "_id": "a8",
+        "class_id": "cl46",
+        "client_id": "c23",
+        "attended": false
+    },
+    {
+        "_id": "a9",
+        "class_id": "cl50",
+        "client_id": "c11",
+        "attended": false
+    },
+    {
+        "_id": "a10",
+        "class_id": "cl50",
+        "client_id": "c19",
+        "attended": true
+    },
+    {
+        "_id": "a11",
+        "class_id": "cl49",
+        "client_id": "c27",
+        "attended": false
+    },
+    {
+        "_id": "a12",
+        "class_id": "cl19",
+        "client_id": "c15",
+        "attended": false
+    },
+    {
+        "_id": "a13",
+        "class_id": "cl6",
+        "client_id": "c26",
+        "attended": true
+    },
+    {
+        "_id": "a14",
+        "class_id": "cl17",
+        "client_id": "c21",
+        "attended": false
+    },
+    {
+        "_id": "a15",
+        "class_id": "cl11",
+        "client_id": "c25",
+        "attended": true
+    },
+    {
+        "_id": "a16",
+        "class_id": "cl31",
+        "client_id": "c12",
+        "attended": true
+    },
+    {
+        "_id": "a17",
+        "class_id": "cl5",
+        "client_id": "c7",
+        "attended": false
+    },
+    {
+        "_id": "a18",
+        "class_id": "cl29",
+        "client_id": "c21",
+        "attended": true
+    },
+    {
+        "_id": "a19",
+        "class_id": "cl16",
+        "client_id": "c30",
+        "attended": true
+    },
+    {
+        "_id": "a20",
+        "class_id": "cl49",
+        "client_id": "c30",
+        "attended": true
+    },
+    {
+        "_id": "a21",
+        "class_id": "cl50",
+        "client_id": "c4",
+        "attended": true
+    },
+    {
+        "_id": "a22",
+        "class_id": "cl27",
+        "client_id": "c2",
+        "attended": false
+    },
+    {
+        "_id": "a23",
+        "class_id": "cl42",
+        "client_id": "c1",
+        "attended": false
+    },
+    {
+        "_id": "a24",
+        "class_id": "cl19",
+        "client_id": "c15",
+        "attended": true
+    },
+    {
+        "_id": "a25",
+        "class_id": "cl34",
+        "client_id": "c10",
+        "attended": false
+    },
+    {
+        "_id": "a26",
+        "class_id": "cl10",
+        "client_id": "c15",
+        "attended": false
+    },
+    {
+        "_id": "a27",
+        "class_id": "cl49",
+        "client_id": "c26",
+        "attended": false
+    },
+    {
+        "_id": "a28",
+        "class_id": "cl32",
+        "client_id": "c16",
+        "attended": false
+    },
+    {
+        "_id": "a29",
+        "class_id": "cl29",
+        "client_id": "c1",
+        "attended": true
+    },
+    {
+        "_id": "a30",
+        "class_id": "cl26",
+        "client_id": "c13",
+        "attended": false
+    },
+    {
+        "_id": "a31",
+        "class_id": "cl18",
+        "client_id": "c26",
+        "attended": true
+    },
+    {
+        "_id": "a32",
+        "class_id": "cl10",
+        "client_id": "c26",
+        "attended": true
+    },
+    {
+        "_id": "a33",
+        "class_id": "cl48",
+        "client_id": "c8",
+        "attended": true
+    },
+    {
+        "_id": "a34",
+        "class_id": "cl24",
+        "client_id": "c29",
+        "attended": false
+    },
+    {
+        "_id": "a35",
+        "class_id": "cl44",
+        "client_id": "c10",
+        "attended": true
+    },
+    {
+        "_id": "a36",
+        "class_id": "cl37",
+        "client_id": "c11",
+        "attended": true
+    },
+    {
+        "_id": "a37",
+        "class_id": "cl45",
+        "client_id": "c8",
+        "attended": false
+    },
+    {
+        "_id": "a38",
+        "class_id": "cl20",
+        "client_id": "c26",
+        "attended": false
+    },
+    {
+        "_id": "a39",
+        "class_id": "cl26",
+        "client_id": "c14",
+        "attended": true
+    },
+    {
+        "_id": "a40",
+        "class_id": "cl15",
+        "client_id": "c14",
+        "attended": true
+    },
+    {
+        "_id": "a41",
+        "class_id": "cl19",
+        "client_id": "c29",
+        "attended": false
+    },
+    {
+        "_id": "a42",
+        "class_id": "cl45",
+        "client_id": "c7",
+        "attended": false
+    },
+    {
+        "_id": "a43",
+        "class_id": "cl4",
+        "client_id": "c16",
+        "attended": false
+    },
+    {
+        "_id": "a44",
+        "class_id": "cl15",
+        "client_id": "c4",
+        "attended": false
+    },
+    {
+        "_id": "a45",
+        "class_id": "cl6",
+        "client_id": "c2",
+        "attended": false
+    },
+    {
+        "_id": "a46",
+        "class_id": "cl4",
+        "client_id": "c4",
+        "attended": true
+    },
+    {
+        "_id": "a47",
+        "class_id": "cl19",
+        "client_id": "c18",
+        "attended": true
+    },
+    {
+        "_id": "a48",
+        "class_id": "cl21",
+        "client_id": "c22",
+        "attended": true
+    },
+    {
+        "_id": "a49",
+        "class_id": "cl24",
+        "client_id": "c18",
+        "attended": true
+    },
+    {
+        "_id": "a50",
+        "class_id": "cl12",
+        "client_id": "c29",
+        "attended": false
     }
 ]

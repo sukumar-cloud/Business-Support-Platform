@@ -14,5 +14,405 @@
         "status": "active",
         "start_date": "2025-07-10",
         "end_date": "2025-08-10"
+    },
+    {
+        "_id": "cr1",
+        "name": "Yoga Advanced",
+        "instructor": "Vanya Kota",
+        "status": "active",
+        "start_date": "2025-07-20",
+        "end_date": "2025-08-10"
+    },
+    {
+        "_id": "cr2",
+        "name": "Yoga Beginner",
+        "instructor": "Abram Deshpande",
+        "status": "active",
+        "start_date": "2025-07-08",
+        "end_date": "2025-07-30"
+    },
+    {
+        "_id": "cr3",
+        "name": "Yoga Advanced",
+        "instructor": "Shlok Raman",
+        "status": "active",
+        "start_date": "2025-07-26",
+        "end_date": "2025-08-17"
+    },
+    {
+        "_id": "cr4",
+        "name": "Yoga Beginner",
+        "instructor": "Ryan Madan",
+        "status": "active",
+        "start_date": "2025-07-30",
+        "end_date": "2025-08-18"
+    },
+    {
+        "_id": "cr5",
+        "name": "Yoga Beginner",
+        "instructor": "Manikya Sura",
+        "status": "active",
+        "start_date": "2025-07-29",
+        "end_date": "2025-08-23"
+    },
+    {
+        "_id": "cr6",
+        "name": "Pilates Pro",
+        "instructor": "Shlok Raman",
+        "status": "active",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-22"
+    },
+    {
+        "_id": "cr7",
+        "name": "Yoga Beginner",
+        "instructor": "Manikya Sura",
+        "status": "active",
+        "start_date": "2025-07-07",
+        "end_date": "2025-07-24"
+    },
+    {
+        "_id": "cr8",
+        "name": "Cardio Blast",
+        "instructor": "Kanav Sankaran",
+        "status": "inactive",
+        "start_date": "2025-07-20",
+        "end_date": "2025-08-16"
+    },
+    {
+        "_id": "cr9",
+        "name": "Pilates Pro",
+        "instructor": "Kiara Ben",
+        "status": "active",
+        "start_date": "2025-07-24",
+        "end_date": "2025-08-14"
+    },
+    {
+        "_id": "cr10",
+        "name": "Meditation",
+        "instructor": "Vanya Kota",
+        "status": "inactive",
+        "start_date": "2025-07-17",
+        "end_date": "2025-08-16"
+    },
+    {
+        "_id": "cr11",
+        "name": "Aerobics",
+        "instructor": "Shanaya Tailor",
+        "status": "active",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-31"
+    },
+    {
+        "_id": "cr12",
+        "name": "CrossFit",
+        "instructor": "Vidur Gala",
+        "status": "inactive",
+        "start_date": "2025-07-10",
+        "end_date": "2025-07-26"
+    },
+    {
+        "_id": "cr13",
+        "name": "HIIT",
+        "instructor": "Dishani Dhaliwal",
+        "status": "active",
+        "start_date": "2025-07-20",
+        "end_date": "2025-08-08"
+    },
+    {
+        "_id": "cr14",
+        "name": "Pilates Pro",
+        "instructor": "Divit Koshy",
+        "status": "inactive",
+        "start_date": "2025-07-19",
+        "end_date": "2025-08-16"
+    },
+    {
+        "_id": "cr15",
+        "name": "Strength Training",
+        "instructor": "Prisha Krishnamurthy",
+        "status": "active",
+        "start_date": "2025-07-11",
+        "end_date": "2025-08-03"
+    },
+    {
+        "_id": "cr16",
+        "name": "HIIT",
+        "instructor": "Ryan Madan",
+        "status": "active",
+        "start_date": "2025-07-11",
+        "end_date": "2025-08-08"
+    },
+    {
+        "_id": "cr17",
+        "name": "Yoga Advanced",
+        "instructor": "Divij Sha",
+        "status": "active",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-29"
+    },
+    {
+        "_id": "cr18",
+        "name": "CrossFit",
+        "instructor": "Himmat Kara",
+        "status": "active",
+        "start_date": "2025-07-09",
+        "end_date": "2025-07-26"
+    },
+    {
+        "_id": "cr19",
+        "name": "Cardio Blast",
+        "instructor": "Yuvraj  Acharya",
+        "status": "inactive",
+        "start_date": "2025-07-12",
+        "end_date": "2025-08-02"
+    },
+    {
+        "_id": "cr20",
+        "name": "Strength Training",
+        "instructor": "Yuvraj  Acharya",
+        "status": "active",
+        "start_date": "2025-07-04",
+        "end_date": "2025-07-30"
+    },
+    {
+        "_id": "cr21",
+        "name": "Yoga Advanced",
+        "instructor": "Yuvraj  Acharya",
+        "status": "active",
+        "start_date": "2025-07-20",
+        "end_date": "2025-08-13"
+    },
+    {
+        "_id": "cr22",
+        "name": "CrossFit",
+        "instructor": "Dishani Dhaliwal",
+        "status": "inactive",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-31"
+    },
+    {
+        "_id": "cr23",
+        "name": "CrossFit",
+        "instructor": "Divij Sha",
+        "status": "active",
+        "start_date": "2025-07-21",
+        "end_date": "2025-08-16"
+    },
+    {
+        "_id": "cr24",
+        "name": "Strength Training",
+        "instructor": "Abram Deshpande",
+        "status": "inactive",
+        "start_date": "2025-07-09",
+        "end_date": "2025-07-25"
+    },
+    {
+        "_id": "cr25",
+        "name": "Strength Training",
+        "instructor": "Mannat Varkey",
+        "status": "active",
+        "start_date": "2025-07-23",
+        "end_date": "2025-08-15"
+    },
+    {
+        "_id": "cr26",
+        "name": "Pilates Pro",
+        "instructor": "Kiara Ben",
+        "status": "active",
+        "start_date": "2025-07-05",
+        "end_date": "2025-08-04"
+    },
+    {
+        "_id": "cr27",
+        "name": "CrossFit",
+        "instructor": "Kabir Ahuja",
+        "status": "inactive",
+        "start_date": "2025-07-01",
+        "end_date": "2025-07-25"
+    },
+    {
+        "_id": "cr28",
+        "name": "Cardio Blast",
+        "instructor": "Mannat Varkey",
+        "status": "inactive",
+        "start_date": "2025-07-05",
+        "end_date": "2025-07-31"
+    },
+    {
+        "_id": "cr29",
+        "name": "Cardio Blast",
+        "instructor": "Vanya Kota",
+        "status": "inactive",
+        "start_date": "2025-07-23",
+        "end_date": "2025-08-19"
+    },
+    {
+        "_id": "cr30",
+        "name": "Zumba",
+        "instructor": "Himmat Kara",
+        "status": "active",
+        "start_date": "2025-07-26",
+        "end_date": "2025-08-23"
+    },
+    {
+        "_id": "cr31",
+        "name": "Aerobics",
+        "instructor": "Kiara Ben",
+        "status": "inactive",
+        "start_date": "2025-07-05",
+        "end_date": "2025-07-25"
+    },
+    {
+        "_id": "cr32",
+        "name": "Pilates Pro",
+        "instructor": "Krish Cheema",
+        "status": "inactive",
+        "start_date": "2025-07-13",
+        "end_date": "2025-08-05"
+    },
+    {
+        "_id": "cr33",
+        "name": "Meditation",
+        "instructor": "Divit Koshy",
+        "status": "active",
+        "start_date": "2025-07-23",
+        "end_date": "2025-08-08"
+    },
+    {
+        "_id": "cr34",
+        "name": "Meditation",
+        "instructor": "Vidur Gala",
+        "status": "active",
+        "start_date": "2025-07-22",
+        "end_date": "2025-08-09"
+    },
+    {
+        "_id": "cr35",
+        "name": "Strength Training",
+        "instructor": "Dishani Dhaliwal",
+        "status": "inactive",
+        "start_date": "2025-07-17",
+        "end_date": "2025-08-07"
+    },
+    {
+        "_id": "cr36",
+        "name": "Strength Training",
+        "instructor": "Divij Sha",
+        "status": "inactive",
+        "start_date": "2025-07-26",
+        "end_date": "2025-08-24"
+    },
+    {
+        "_id": "cr37",
+        "name": "CrossFit",
+        "instructor": "Mannat Varkey",
+        "status": "inactive",
+        "start_date": "2025-07-30",
+        "end_date": "2025-08-19"
+    },
+    {
+        "_id": "cr38",
+        "name": "Yoga Beginner",
+        "instructor": "Mannat Varkey",
+        "status": "active",
+        "start_date": "2025-07-16",
+        "end_date": "2025-08-08"
+    },
+    {
+        "_id": "cr39",
+        "name": "Aerobics",
+        "instructor": "Kanav Sankaran",
+        "status": "inactive",
+        "start_date": "2025-07-15",
+        "end_date": "2025-08-02"
+    },
+    {
+        "_id": "cr40",
+        "name": "HIIT",
+        "instructor": "Krish Cheema",
+        "status": "inactive",
+        "start_date": "2025-07-09",
+        "end_date": "2025-08-07"
+    },
+    {
+        "_id": "cr41",
+        "name": "Cardio Blast",
+        "instructor": "Kiara Ben",
+        "status": "inactive",
+        "start_date": "2025-07-29",
+        "end_date": "2025-08-15"
+    },
+    {
+        "_id": "cr42",
+        "name": "Zumba",
+        "instructor": "Divit Koshy",
+        "status": "active",
+        "start_date": "2025-07-23",
+        "end_date": "2025-08-16"
+    },
+    {
+        "_id": "cr43",
+        "name": "Meditation",
+        "instructor": "Prisha Krishnamurthy",
+        "status": "inactive",
+        "start_date": "2025-07-04",
+        "end_date": "2025-07-28"
+    },
+    {
+        "_id": "cr44",
+        "name": "Yoga Advanced",
+        "instructor": "Dishani Dhaliwal",
+        "status": "active",
+        "start_date": "2025-07-26",
+        "end_date": "2025-08-10"
+    },
+    {
+        "_id": "cr45",
+        "name": "CrossFit",
+        "instructor": "Damini Vaidya",
+        "status": "active",
+        "start_date": "2025-07-20",
+        "end_date": "2025-08-16"
+    },
+    {
+        "_id": "cr46",
+        "name": "Pilates Pro",
+        "instructor": "Kiara Ben",
+        "status": "inactive",
+        "start_date": "2025-07-04",
+        "end_date": "2025-07-23"
+    },
+    {
+        "_id": "cr47",
+        "name": "Pilates Pro",
+        "instructor": "Kanav Sankaran",
+        "status": "inactive",
+        "start_date": "2025-07-25",
+        "end_date": "2025-08-23"
+    },
+    {
+        "_id": "cr48",
+        "name": "Zumba",
+        "instructor": "Dishani Dhaliwal",
+        "status": "inactive",
+        "start_date": "2025-07-21",
+        "end_date": "2025-08-18"
+    },
+    {
+        "_id": "cr49",
+        "name": "Strength Training",
+        "instructor": "Aniruddh Dugar",
+        "status": "active",
+        "start_date": "2025-07-25",
+        "end_date": "2025-08-18"
+    },
+    {
+        "_id": "cr50",
+        "name": "Pilates Pro",
+        "instructor": "Kiara Ben",
+        "status": "active",
+        "start_date": "2025-07-25",
+        "end_date": "2025-08-14"
     }
 ]

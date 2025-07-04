@@ -14,5 +14,405 @@
         "time": "10:00",
         "instructor": "Vikram Singh",
         "status": "scheduled"
+    },
+    {
+        "_id": "cl1",
+        "course_id": "cr20",
+        "date": "2025-07-29",
+        "time": "08:00",
+        "instructor": "Thomas Thompson",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl2",
+        "course_id": "cr14",
+        "date": "2025-07-16",
+        "time": "10:00",
+        "instructor": "Dr. Traci Becker",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl3",
+        "course_id": "cr2",
+        "date": "2025-07-20",
+        "time": "16:00",
+        "instructor": "Karen Richardson",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl4",
+        "course_id": "cr9",
+        "date": "2025-07-18",
+        "time": "10:00",
+        "instructor": "Jason Gates",
+        "status": "completed"
+    },
+    {
+        "_id": "cl5",
+        "course_id": "cr7",
+        "date": "2025-07-11",
+        "time": "17:00",
+        "instructor": "Jonathan Pacheco",
+        "status": "completed"
+    },
+    {
+        "_id": "cl6",
+        "course_id": "cr3",
+        "date": "2025-07-16",
+        "time": "16:00",
+        "instructor": "Samantha Pena",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl7",
+        "course_id": "cr3",
+        "date": "2025-07-25",
+        "time": "15:00",
+        "instructor": "Sandy Mitchell",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl8",
+        "course_id": "cr16",
+        "date": "2025-07-24",
+        "time": "15:00",
+        "instructor": "Douglas Morgan",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl9",
+        "course_id": "cr20",
+        "date": "2025-07-22",
+        "time": "09:00",
+        "instructor": "Samantha Pena",
+        "status": "completed"
+    },
+    {
+        "_id": "cl10",
+        "course_id": "cr12",
+        "date": "2025-07-04",
+        "time": "09:00",
+        "instructor": "Karen Richardson",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl11",
+        "course_id": "cr1",
+        "date": "2025-07-13",
+        "time": "10:00",
+        "instructor": "Sandy Mitchell",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl12",
+        "course_id": "cr6",
+        "date": "2025-07-28",
+        "time": "13:00",
+        "instructor": "Chad Wood",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl13",
+        "course_id": "cr11",
+        "date": "2025-07-03",
+        "time": "10:00",
+        "instructor": "Elizabeth Scott",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl14",
+        "course_id": "cr6",
+        "date": "2025-07-04",
+        "time": "10:00",
+        "instructor": "Leonard Miller",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl15",
+        "course_id": "cr2",
+        "date": "2025-07-23",
+        "time": "07:00",
+        "instructor": "Tiffany Alvarez",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl16",
+        "course_id": "cr15",
+        "date": "2025-07-29",
+        "time": "15:00",
+        "instructor": "Jason Gates",
+        "status": "completed"
+    },
+    {
+        "_id": "cl17",
+        "course_id": "cr15",
+        "date": "2025-07-21",
+        "time": "17:00",
+        "instructor": "Thomas Thompson",
+        "status": "completed"
+    },
+    {
+        "_id": "cl18",
+        "course_id": "cr1",
+        "date": "2025-07-26",
+        "time": "18:00",
+        "instructor": "Samantha Pena",
+        "status": "completed"
+    },
+    {
+        "_id": "cl19",
+        "course_id": "cr16",
+        "date": "2025-07-25",
+        "time": "16:00",
+        "instructor": "Ryan Bryant",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl20",
+        "course_id": "cr13",
+        "date": "2025-07-18",
+        "time": "07:00",
+        "instructor": "Douglas Morgan",
+        "status": "completed"
+    },
+    {
+        "_id": "cl21",
+        "course_id": "cr7",
+        "date": "2025-07-30",
+        "time": "11:00",
+        "instructor": "Luke Williams",
+        "status": "completed"
+    },
+    {
+        "_id": "cl22",
+        "course_id": "cr20",
+        "date": "2025-07-31",
+        "time": "07:00",
+        "instructor": "Jonathan Pacheco",
+        "status": "completed"
+    },
+    {
+        "_id": "cl23",
+        "course_id": "cr12",
+        "date": "2025-07-02",
+        "time": "15:00",
+        "instructor": "Leonard Miller",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl24",
+        "course_id": "cr8",
+        "date": "2025-07-08",
+        "time": "17:00",
+        "instructor": "Leonard Miller",
+        "status": "completed"
+    },
+    {
+        "_id": "cl25",
+        "course_id": "cr1",
+        "date": "2025-07-25",
+        "time": "15:00",
+        "instructor": "Thomas Thompson",
+        "status": "completed"
+    },
+    {
+        "_id": "cl26",
+        "course_id": "cr5",
+        "date": "2025-07-31",
+        "time": "08:00",
+        "instructor": "Sandy Mitchell",
+        "status": "completed"
+    },
+    {
+        "_id": "cl27",
+        "course_id": "cr20",
+        "date": "2025-07-03",
+        "time": "07:00",
+        "instructor": "Tiffany Alvarez",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl28",
+        "course_id": "cr10",
+        "date": "2025-07-07",
+        "time": "18:00",
+        "instructor": "Douglas Morgan",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl29",
+        "course_id": "cr8",
+        "date": "2025-07-20",
+        "time": "08:00",
+        "instructor": "Ryan Bryant",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl30",
+        "course_id": "cr13",
+        "date": "2025-07-10",
+        "time": "14:00",
+        "instructor": "Tiffany Alvarez",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl31",
+        "course_id": "cr5",
+        "date": "2025-07-13",
+        "time": "14:00",
+        "instructor": "Karen Richardson",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl32",
+        "course_id": "cr1",
+        "date": "2025-07-22",
+        "time": "10:00",
+        "instructor": "Tabitha Pitts",
+        "status": "completed"
+    },
+    {
+        "_id": "cl33",
+        "course_id": "cr9",
+        "date": "2025-07-13",
+        "time": "17:00",
+        "instructor": "Douglas Morgan",
+        "status": "completed"
+    },
+    {
+        "_id": "cl34",
+        "course_id": "cr16",
+        "date": "2025-07-07",
+        "time": "09:00",
+        "instructor": "Sandy Mitchell",
+        "status": "completed"
+    },
+    {
+        "_id": "cl35",
+        "course_id": "cr20",
+        "date": "2025-07-10",
+        "time": "14:00",
+        "instructor": "Douglas Morgan",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl36",
+        "course_id": "cr19",
+        "date": "2025-07-28",
+        "time": "13:00",
+        "instructor": "Ryan Bryant",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl37",
+        "course_id": "cr2",
+        "date": "2025-07-01",
+        "time": "10:00",
+        "instructor": "Ryan Bryant",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl38",
+        "course_id": "cr6",
+        "date": "2025-07-28",
+        "time": "09:00",
+        "instructor": "Samantha Pena",
+        "status": "completed"
+    },
+    {
+        "_id": "cl39",
+        "course_id": "cr19",
+        "date": "2025-07-09",
+        "time": "12:00",
+        "instructor": "Sandy Mitchell",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl40",
+        "course_id": "cr9",
+        "date": "2025-07-04",
+        "time": "12:00",
+        "instructor": "Katie Cruz",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl41",
+        "course_id": "cr9",
+        "date": "2025-07-22",
+        "time": "10:00",
+        "instructor": "Thomas Thompson",
+        "status": "completed"
+    },
+    {
+        "_id": "cl42",
+        "course_id": "cr14",
+        "date": "2025-07-26",
+        "time": "07:00",
+        "instructor": "Jonathan Pacheco",
+        "status": "completed"
+    },
+    {
+        "_id": "cl43",
+        "course_id": "cr4",
+        "date": "2025-07-22",
+        "time": "16:00",
+        "instructor": "Karen Richardson",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl44",
+        "course_id": "cr17",
+        "date": "2025-07-27",
+        "time": "09:00",
+        "instructor": "Sandy Mitchell",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl45",
+        "course_id": "cr8",
+        "date": "2025-07-22",
+        "time": "15:00",
+        "instructor": "Dr. Traci Becker",
+        "status": "cancelled"
+    },
+    {
+        "_id": "cl46",
+        "course_id": "cr18",
+        "date": "2025-07-24",
+        "time": "11:00",
+        "instructor": "Douglas Morgan",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl47",
+        "course_id": "cr12",
+        "date": "2025-07-01",
+        "time": "09:00",
+        "instructor": "Karen Richardson",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl48",
+        "course_id": "cr20",
+        "date": "2025-07-04",
+        "time": "10:00",
+        "instructor": "Megan Mitchell",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl49",
+        "course_id": "cr17",
+        "date": "2025-07-01",
+        "time": "10:00",
+        "instructor": "Tiffany Alvarez",
+        "status": "scheduled"
+    },
+    {
+        "_id": "cl50",
+        "course_id": "cr7",
+        "date": "2025-07-14",
+        "time": "17:00",
+        "instructor": "Elizabeth Scott",
+        "status": "completed"
     }
 ]

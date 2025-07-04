@@ -25,12 +25,18 @@ def insert_data():
     classes_column.delete_many({})
     attendance_column.delete_many({})
 
-    clients_column.insert_many(load_json("data/clients.json"))
-    orders_column.insert_many(load_json("data/orders.json"))
-    payments_column.insert_many(load_json("data/payments.json"))
-    courses_column.insert_many(load_json("data/courses.json"))
-    classes_column.insert_many(load_json("data/classes.json"))
-    attendance_column.insert_many(load_json("data/attendance.json"))
+    for doc in load_json("qest_backend_assignment/data/clients.json"):
+        clients_column.replace_one({'_id': doc['_id']}, doc, upsert=True)
+    for doc in load_json("qest_backend_assignment/data/orders.json"):
+        orders_column.replace_one({'_id': doc['_id']}, doc, upsert=True)
+    for doc in load_json("qest_backend_assignment/data/payments.json"):
+        payments_column.replace_one({'_id': doc['_id']}, doc, upsert=True)
+    for doc in load_json("qest_backend_assignment/data/courses.json"):
+        courses_column.replace_one({'_id': doc['_id']}, doc, upsert=True)
+    for doc in load_json("qest_backend_assignment/data/classes.json"):
+        classes_column.replace_one({'_id': doc['_id']}, doc, upsert=True)
+    for doc in load_json("qest_backend_assignment/data/attendance.json"):
+        attendance_column.replace_one({'_id': doc['_id']}, doc, upsert=True)
 
     print(" data loaded successfully.")
 

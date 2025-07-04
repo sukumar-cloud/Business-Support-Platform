@@ -65,4 +65,52 @@ def handle_support_prompt(prompt: str):
         print(" Enquiry created:", enquiry)
         return "Enquiry logged successfully."
 
+    match = re.search(r"(?:show|view|get) (?:enrolled services|services|status) for client ([\w ]+)", prompt_lc)
+    if match:
+        client_name = match.group(1).strip().title()
+        client = get_client_by_identifier(client_name)
+        if client:
+            services = ', '.join(client.get('enrolled_services', []))
+            status = client.get('status', 'unknown')
+            return f"Client '{client_name}' is enrolled in: {services}. Status: {status}."
+        return f"Client '{client_name}' not found."
+
+    match = re.search(r"pending dues (?:for client ([\w ]+)|for order (\w+))", prompt_lc)
+    if match:
+        client_name = match.group(1)
+        order_id = match.group(2)
+        if client_name:
+            client = get_client_by_identifier(client_name.title())
+            if client:
+                orders = get_client_orders(client['_id'])
+                pending = [o for o in orders if o.get('status') == 'pending']
+                total_due = sum(o.get('amount', 0) for o in pending)
+                return f"Client '{client_name.title()}' has {len(pending)} pending order(s), total due: ₹{total_due}."
+            return f"Client '{client_name.title()}' not found."
+        elif order_id:
+            order = get_order_by_id(order_id)
+            if order and order.get('status') == 'pending':
+                return f"Order #{order_id} is pending. Amount due: ₹{order.get('amount', 0)}."
+            elif order:
+                return f"Order #{order_id} is not pending."
+            return f"Order #{order_id} not found."
+
+    match = re.search(r"classes? (?:by|with) instructor ([\w ]+)", prompt_lc)
+    if match:
+        instructor = match.group(1).strip().title()
+        classes = get_classes_by_instructor(instructor)
+        if classes:
+            class_list = [f"{c['date']} - {c.get('instructor', 'Unknown')}" for c in classes]
+            return f"Classes by {instructor}:\n- " + "\n- ".join(class_list)
+        return f"No classes found for instructor {instructor}."
+
+    match = re.search(r"classes? with status ([\w]+)", prompt_lc)
+    if match:
+        status = match.group(1).strip().lower()
+        classes = [c for c in get_upcoming_classes() if c.get('status', '').lower() == status]
+        if classes:
+            class_list = [f"{c['date']} - {c.get('instructor', 'Unknown')}" for c in classes]
+            return f"Classes with status '{status}':\n- " + "\n- ".join(class_list)
+        return f"No classes found with status '{status}'."
+
     return "Sorry, I couldn't understand your support request."

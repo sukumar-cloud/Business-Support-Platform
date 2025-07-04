@@ -74,11 +74,11 @@ Agents interact with MongoDB (mock or real), external APIs, and expose endpoints
 ### Support Agent
 - Show enrolled services for client Priya Sharma
 - Get status for client Rahul Verma
-- Has order #12345 been paid?
+- Has order #o1 been paid?
 - Create an order for Yoga Beginner for client Priya Sharma
 - Pending dues for client Priya Sharma
 - Pending dues for order o1
-- Payment info for order #12345
+
 
 ### Dashboard Agent
 - What is the total revenue?
